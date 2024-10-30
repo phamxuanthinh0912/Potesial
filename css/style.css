@@ -1,0 +1,466 @@
+@import url(/ussets/css/clash-display.css);
+
+:root {
+    --c-dark: #212529;
+    --c-brand: #4e57d4;
+    --c-brand-light: #6970dd;
+    --c-brand-rgb: 78, 87, 212;
+    --c-body: #727272;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s case;
+}
+
+body {
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-body)
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand-light);
+}
+
+.section-padding {
+    padding: 140px;
+    padding-bottom: 140px;
+}
+
+/* navbar */
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--c-dark);
+}
+
+/* btn */
+.btn {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-brand {
+
+    color: rgb(227, 121, 8);
+}
+
+.btn-brand:hover {
+    color: rgb(245, 96, 3);
+}
+
+.nav-link:hover {
+    color: rgb(227, 121, 8)
+}
+
+.style1 {
+    font-size: 16px;
+    color: rgb(245, 96, 3);
+    text-align: left;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: start;
+    color: black;
+    font-size: 38px ;
+}
+
+.style2 {
+    font-size: 12px;
+    color: black;
+    text-align: start;
+}
+
+.nut1 {
+    background-color: rgb(245, 96, 3) !important;
+    color: white !important;
+}
+
+.nut1:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.nut2 {
+    background-color: white;
+    color: black;
+}
+
+.nut2:hover {
+    background-color: rgb(227, 121, 8);
+    color: black;
+}
+
+.star {
+    color: black;
+    bottom: 70px;
+    right: 0;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+
+}
+
+.danhgia1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.danhgia2 {
+    font-size: 12px;
+    font-weight: 0;
+}
+
+.danhgia3 {
+    font-size: 12px;
+    color: #727272;
+}
+
+.cmt>img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.cmt2 {
+    background-color: rgb(245, 96, 3);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    color: white;
+
+}
+
+.cmt1 {
+    color: black;
+    font-size: 12px;
+    border-radius: 20px;
+    bottom: 10%;
+}
+
+.cmt {
+    border-radius: 12px;
+    width: 200px;
+    justify-content: center;
+}
+
+.fl {
+    color: black;
+    font-size: 12px;
+    text-align: start;
+}
+
+.icon i {
+    margin-right: 7px;
+}
+
+.icon i:last-child {
+    margin-right: 0;
+}
+
+.business>img{
+    width: 400px;
+    height: 350px;
+    padding-top: 50px;
+}
+.style3{
+    color: rgb(245, 96, 3);
+    font-size: 14px;
+    font-weight: bold;
+}
+h2{
+    color: black;
+    font-size: 45px;
+    text-align: start;
+}
+.style4{
+    font-size: 12px;
+    color: black;
+    margin-bottom: 20px;
+}
+.style5{
+    font-size: 12px;
+    color: black;
+    margin-bottom: 40px;
+}
+.style6{
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.Bsn{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+.Bsn2{
+    font-size: 12px;
+    color: black;
+    margin-top: -15px;
+}
+.view{
+    color: rgb(245, 96, 3);
+    font-size: 14px;
+    font-weight: bold;
+}
+h3{
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.help{
+    color: black;
+    font-size: 12px;
+}
+.nutview{
+    background-color: rgb(211, 82, 2) !important;
+    color: white !important;
+    font-weight: bolder;
+}
+.nutview:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+}
+.stra{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.goal{
+    font-size: 12px;
+    color: black;
+}
+.mar>img{
+    width: 30%;
+    height: auto;
+}
+.max>img{
+    width: 35%;
+    height: auto; 
+}
+.stra2{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.goal2{
+    font-size: 12px;
+    color: black;
+}
+.custom-bg {
+    background-image:url(../img/blv3.jpg) ;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 400px; 
+}.back{
+    text-align: center;
+    color: white;
+}
+.backp{
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 50px;
+}
+.backa{
+    font-size: 14px;
+   
+}
+.casestudi{
+    color: rgb(245, 96, 3);
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.lear{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.each{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+.xyz>img{
+    width: 85%;
+    height: 265px;
+  
+}
+.abc>img{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    height: 265px;
+}
+.date{
+    font-size: 12px;
+    margin-left: 280px;
+    
+}
+.date2{
+    font-size: 12px;
+    margin-left: 350px;
+}
+.choose{
+    font-size: 14px;
+    color: rgb(211, 82, 2);
+    font-weight: bold;
+}
+.chosse2{
+    font-size: 13px;
+    color: black;
+}
+.none{
+    color: black;
+    font-size: 14px;
+}
+.chose>img{
+    width: 100%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.pricing{
+    text-align: center;
+}
+.tien{
+    font-size: 12px;
+    color: black;
+   
+}
+.tien1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.bassic:hover{
+    transform: scale(0.9);
+}
+.standard:hover{
+    transform: scale(0.9);
+}
+.premium:hover{
+    transform: scale(0.9);
+}
+.trans:hover{
+    transform: scale(0.9);
+}
+.team{
+    padding-top: 35px;
+   
+}
+.review {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .profile-img {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .name {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin: 0; 
+  }
+  
+  .designation {
+    font-size: 12px;
+    color: black;
+    margin: 0; 
+  }
+  .blog{
+    text-align: center;
+  }
+  .but{
+    width: 90px;
+    height: 30px;
+    font-size: 8px;
+    color: white;
+    background-color: rgb(211, 82, 2);
+    border: none;
+  }
+ .but:hover{
+    background-color: rgb(239, 228, 125);
+    color: rgb(0, 0, 0);
+    border-color: rgb(211, 82, 2);
+ }
+  .info-row {
+    display: flex;
+    align-items: center; 
+    gap: 40px; 
+  }
+  .dates {
+    margin: 0;
+    font-size: 12px;
+    color: #6c757d; 
+  }
+  .footerr>img{
+    width: 100%;
+    height: auto;
+  }
+  .custom-email {
+    border: 2px solid orange; /* Viền màu cam */
+    color: rgb(90, 90, 90); /* Màu chữ bên trong là xanh nhạt */
+  }
+  
+  .custom-email::placeholder {
+    color: rgb(90, 90, 90); /* Màu placeholder là xanh nhạt */
+    opacity: 0.6; /* Độ mờ để dễ đọc hơn */
+  }
+  
+  .custom-email:focus {
+    border-color: darkorange; /* Viền cam đậm khi focus */
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Hiệu ứng đổ bóng nhẹ */
+  }
+  .footer {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  .text-left {
+    margin: 0;
+  }
+  
+  .text-right {
+    margin: 0;
+  }
+  .footer {
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+  }
+    
+  
+  
